@@ -11,7 +11,6 @@ function palindrome(str) {
  //convert string to Array as the every() only works on arrays
  return str =str.split('').every((char,i)=>{
      return char === str[str.length-i-1];
-
  });
 
 
