@@ -21,7 +21,7 @@ const anagrams = (stringA, stringB)=> {
             return false;
     }
     return true;
-}
+};
 
 
 const buildCharMap = (str)=> {
@@ -30,6 +30,6 @@ const buildCharMap = (str)=> {
         charMap[char] = charMap[char] + 1 || 1;
     }
     return charMap;
-}
+};
 
 module.exports = anagrams;
